@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="drawer" ondrop="drop(event)" ondragover="dragover(event)">
+        <div id="mydiv" draggable="true" ondragstart="dragstart(event)"></div>
+        <div id="mydiv2" draggable="true" ondragstart="dragstart(event)"></div>
+    </div>
+    <script>
+        let distX;
+        let distY;
+        let posX;
+        let posY;
+
+        function dragstart(event) {
+            posX = event.pageX;
+            posY = event.pageY;
+            distX = event.srcElement.offsetLeft - posX;
+            distY = event.srcElement.offsetTop - posY;
+        }
+
+        function dragover(evnet) {
+            event.stopPropagation();
+            event.preventDefault();
+        }
+
+        function drop(event) {
+            event.stopPropagation();
+            event.preventDefault();
+            posX = event.pageX;
+            posY = event.pageY;
+            console.log(posX, posY, distX, distY);
+            $('#mydiv').css('margin-left', posX + distX + 'px')
+                .css('margin-top', posY + distY + 'px');
+        }
+    </script>
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #drawer {
+            position: relative;
+            width: 600px;
+            height: 600px;
+            background-size: 600px, 600px;
+            background-image: url("img43.gif");
+        }
+
+        #mydiv {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+
+            background-image: url("img1.gif");
+        }
+
+        #mydiv2 {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-image: url("img1.gif");
+        }
+    </style>
+</body>
+
+</html>
