@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+body{
+	width: 100%;
+	height: 100%;
+
+}
+
+#div1 {
+  position: relative; 
+  width: 600px;
+  height: 600px;
+  left: 50px;
+  background-attachment: local;
+  background-image: url("img43.gif");
+  background-size: 600px, 600px;
+}
+
+
+
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+
+
+<body>
+
+<p>나만의 피자 만들기</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+	
+</div>
+<br>
+
+<div class="img-wrapper">
+<img id="drag1" src="img1.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px">
+
+
+<img id="drag2" src="img2.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="30px">
+<img id="drag3" src="img3.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="60px">
+<img id="drag4" src="img4.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="90px">
+<img id="drag5" src="img5.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="120px">
+<img id="drag6" src="img6.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="150px">
+<img id="drag7" src="img7.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="180px">
+<img id="drag8" src="img8.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="210px">
+<img id="drag9" src="img9.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="240px">
+<img id="drag10" src="img10.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="270px">
+<img id="drag11" src="img11.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="300px">
+<img id="drag12" src="img12.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="330px">
+<img id="drag13" src="img13.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="360px">
+<img id="drag14" src="img14.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="390px">
+<img id="drag15" src="img15.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="420px">
+<img id="drag16" src="img16.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="450px">
+<img id="drag17" src="img17.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="480px">
+<img id="drag18" src="img18.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="510px">
+<img id="drag19" src="img19.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="540px">
+<img id="drag20" src="img20.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="570px">
+<img id="drag21" src="img21.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="600px">
+<img id="drag22" src="img22.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="630px">
+<img id="drag23" src="img3.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="660px">
+<img id="drag24" src="img24.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="690px">
+<img id="drag25" src="img25.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="72px">
+<img id="drag26" src="img26.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="750px">
+<img id="drag27" src="img27.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="780px">
+<img id="drag28" src="img28.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="810px">
+<img id="drag29" src="img29.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="840px">
+<img id="drag30" src="img30.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="870px">
+<img id="drag31" src="img31.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="900px">
+<img id="drag32" src="img32.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="930px">
+<img id="drag33" src="img33.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="960px">
+<img id="drag34" src="img34.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="990px">
+<img id="drag35" src="img35.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="1020px">
+<img id="drag36" src="img36.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="1050px">
+<img id="drag37" src="img37.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="1050px">
+<img id="drag38" src="img38.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="1080px">
+<img id="drag39" src="img39.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="1110px">
+<img id="drag40" src="img40.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="1140px">
+<img id="drag41" src="img41.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="1170px">
+<img id="drag42" src="img42.gif" draggable="true" ondragstart="drag(event)" width="100px" height="100px" left="1200px">
+</div>
+
+
+</body>
+</html>
+
