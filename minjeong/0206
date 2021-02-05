@@ -1,0 +1,67 @@
+    <head>
+        <meta charset="utf-8"/>
+        <link type="text/css" rel="stylesheet" media="screen" href="css/testednd.css"/> 
+        <!-- CSS das div's -->
+        <!-- <script src="js/testednd.js"></script> --> <!-- Script clickImagem -->
+
+    </head>
+    <body>
+        <div id="conteudo-left" style="position:static; left:10px; top:20px; width:180; height:750; z-index:+1; overflow: auto;">
+            <form name="form_dnd_left" border = 1>
+                <ul id="ul"> 
+                    <li><img id="drag1" src="images/img1.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag2" src="images/img2.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag3" src="images/img3.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag4" src="images/img4.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag5" src="images/img5.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag6" src="images/img6.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag7" src="images/img7.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag8" src="images/img8.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag9" src="images/img9.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag10" src="images/img10.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag11" src="images/img11.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag12" src="images/img12.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag13" src="images/img13.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag14" src="images/img14.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag15" src="images/img15.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag16" src="images/img16.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag17" src="images/img17.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag18" src="images/img18.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag19" src="images/img19.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag20" src="images/img20.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag21" src="images/img21.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag22" src="images/img22.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag23" src="images/img23.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag24" src="images/img24.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag25" src="images/img25.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag26" src="images/img26.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag27" src="images/img27.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag28" src="images/img28.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag29" src="images/img29.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag30" src="images/img30.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag31" src="images/img31.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag32" src="images/img32.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag33" src="images/img33.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag34" src="images/img34.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag35" src="images/img35.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                     <li><img id="drag36" src="images/img36.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag37" src="images/img37.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag38" src="images/img38.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag39" src="images/img39.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag40" src="images/img40.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                     <li><img id="drag41" src="images/img41.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                    <li><img id="drag42" src="images/img42.gif" draggable="true" ondragstart="drag(event)"  alt="asdfasdf" /></li>
+                </ul>
+            </form>
+        </div>
+        <div class="conteudo" id="conteudo" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+
+        <div class="specific">
+        <button type="button" class="btn btn-default">브리또 완성!</button>
+    </div>
+        <!-- <div id="bg" ><img src="images/img43.gif"></div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+              <script src="js/testednd.js"></script>
+    </body>
+</html><html>
